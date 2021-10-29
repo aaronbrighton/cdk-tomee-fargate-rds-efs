@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomee>
+    <Resource id="jdbc/fargate_rds_efs_test" type="javax.sql.DataSource">
+        JdbcDriver = org.postgresql.Driver
+        JdbcUrl = jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}
+        UserName = ${DB_USER}
+        Password = ${DB_PASSWORD}
+        jtaManaged = true
+    </Resource>
+</tomee>

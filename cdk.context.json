@@ -1,0 +1,8 @@
+{
+  "customDomain": "containerapp.aaronbrighton.ca",
+  "customDomainZoneName": "aaronbrighton.ca",
+  "customDomainZoneId": "ZRZJWLXW3FS0K",
+  "ipAllowList": [
+      "206.214.231.164/32"
+  ]
+}
